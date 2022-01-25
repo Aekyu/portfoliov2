@@ -26,9 +26,9 @@ const Accueil = () => {
             compétences dans ce domaine.
           </p>
           <div>
-            <Link to="./projets">
-              <button id="btn1Accueil">Projets </button>
-            </Link>
+            <a href="#goToProjets">
+              <button id="btn1Accueil">Projets</button>
+            </a>
             <a href="https://www.linkedin.com/in/baptiste-couloumies-42736b1ab/">
               <button id="btn2Accueil">LinkedIn</button>
             </a>
@@ -38,15 +38,19 @@ const Accueil = () => {
           <img id="shapeTopLeft" src={form} alt="shapeTopLeft" />
         </div>
       </section>
-      <section>
+      <section id="goToCv">
         <div>
           <h1 id="cvTitle">CV</h1>
         </div>
         <div id="btnCv1">
-          <button id="btnCv2">Télécharger mon CV</button>
+          <button id="btnCv2">
+            <a id="hrefBtnCv" href="./CV.pdf" download>
+              Télécharger mon CV
+            </a>
+          </button>
         </div>
       </section>
-      <section>
+      <section id="goToProjets">
         <div>
           <h1 id="projectsTitle">Projets</h1>
         </div>
@@ -90,13 +94,13 @@ const Accueil = () => {
 
       <section>
         <div id="icons">
-          <a href="https://github.com/Aekyu">
+          <a href="https://github.com/Aekyu" target="_blank">
             <img id="iconsGit" src={github} alt="githubLink" />
           </a>
-          <a href="https://www.linkedin.com/in/baptisteclms/">
+          <a href="https://www.linkedin.com/in/baptisteclms/" target="_blank">
             <img id="iconsLinkedIn" src={linkedIn} alt="linkedInLink" />
           </a>
-          <a href="baptiste.clms@gmail.com">
+          <a href="mailto:baptiste.clms@gmail.com" target="_blank">
             <img id="iconsMail" src={mail} alt="mailLink" />
           </a>
         </div>

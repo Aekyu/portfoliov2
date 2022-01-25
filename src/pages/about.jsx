@@ -28,13 +28,13 @@ let About = () => {
       </section>
       <section>
         <div id="iconsAbout">
-          <a href="https://github.com/Aekyu">
+          <a href="https://github.com/Aekyu" target="_blank">
             <img id="iconsGit" src={github} alt="githubLink" />
           </a>
-          <a href="https://www.linkedin.com/in/baptisteclms/">
+          <a href="https://www.linkedin.com/in/baptisteclms/" target="_blank">
             <img id="iconsLinkedIn" src={linkedIn} alt="linkedInLink" />
           </a>
-          <a href="baptiste.clms@gmail.com">
+          <a href="mailto:baptiste.clms@gmail.com" target="_blank">
             <img id="iconsMail" src={mail} alt="mailLink" />
           </a>
         </div>
