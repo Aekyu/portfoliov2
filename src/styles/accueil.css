@@ -1,0 +1,191 @@
+#fullDescription {
+  padding-top: 3%;
+}
+
+#h4Title {
+  font-family: Nunito;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #fdc435;
+}
+
+#h1Title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  width: 50%;
+  color: #25282b;
+  padding-top: 12px;
+}
+
+#descriptionAccueil {
+  font-family: Nunito;
+  font-size: 22px;
+  line-height: 150%;
+  color: #828282;
+  width: 31%;
+  padding-top: 32px;
+}
+
+#btn1Accueil,
+#btn2Accueil {
+  font-family: Roboto;
+  font-size: 18px;
+  width: 94px;
+  height: 34px;
+  cursor: pointer;
+  color: #25282b;
+}
+
+#btn1Accueil {
+  background: #fdc435;
+  border-radius: 8px;
+  margin-right: 12px;
+  margin-top: 40px;
+}
+
+#btn2Accueil {
+  border: 2px solid #25282b;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#shapeTopLeft {
+  position: absolute;
+  width: 840px;
+  height: 690px;
+  right: 0px;
+  top: 0px;
+}
+
+#projectsTitle {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  padding-top: 8%;
+  color: #25282b;
+}
+
+#divProjects {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#allContainProject,
+#allContainProjectReverse,
+#imgProject,
+#imgProjectReverse {
+  width: 496px;
+  height: 524px;
+}
+
+#allContainProject {
+  border-radius: 25px 0 0 25px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+
+#imgProject {
+  border-radius: 0 25px 25px 0;
+}
+
+#titleProject {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 150%;
+  color: #25282b;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#descriptionProjet {
+  font-family: Nunito;
+  font-size: 18px;
+  line-height: 150%;
+  color: #828282;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#btnProject {
+  border: 1px solid #25282b;
+  box-sizing: border-box;
+  border-radius: 24px;
+  width: 150px;
+  height: 43px;
+  margin-left: 15%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+#imgProjectReverse {
+  border-radius: 25px 0 0 25px;
+}
+
+#allContainProjectReverse {
+  border-radius: 0 25px 25px 0;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+
+#cvTitle {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  padding-top: 14%;
+  color: #25282b;
+}
+
+#btnCv1 {
+  display: flex;
+  justify-content: center;
+}
+
+#btnCv2 {
+  background: #fdc435;
+  border-radius: 8px;
+  margin-right: 12px;
+  margin-top: 8%;
+  font-family: Roboto;
+  font-size: 18px;
+  width: 220px;
+  height: 45px;
+  cursor: pointer;
+  color: #25282b;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 15%;
+}
+
+#iconsGit {
+  width: 59px;
+  cursor: pointer;
+}
+#iconsLinkedIn {
+  width: 47px;
+  padding-left: 32px;
+  cursor: pointer;
+}
+#iconsMail {
+  width: 50px;
+  padding-left: 32px;
+  cursor: pointer;
+}

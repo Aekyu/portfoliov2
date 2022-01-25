@@ -1,0 +1,31 @@
+#aboutTitle {
+  font-family: Playfair Display;
+  font-size: 48px;
+  line-height: 72px;
+  color: #25282b;
+  margin-top: 150px;
+  margin-bottom: 32px;
+}
+
+#aboutDescription {
+  font-family: Nunito;
+  font-size: 24px;
+  line-height: 150%;
+  color: #828282;
+  width: 40%;
+}
+
+#pdp {
+  position: absolute;
+  width: 524px;
+  height: 524px;
+  left: 60%;
+  top: 12%;
+}
+
+#iconsAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22.5%;
+}
