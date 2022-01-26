@@ -56,12 +56,22 @@
     }
 }
 
-@media(min-width: 1200px ) and (max-width: 2000px) {
+@media(min-width: 1200px ) and (max-width: 1500px){
     #pdp {
         left: 55%;
     }
 
     #iconsAbout {
         padding-top: 180px;
+    }
+}
+
+@media(min-width: 1501px ){
+    #pdp {
+        left: 55%;
+    }
+
+    #iconsAbout {
+        padding-top: 240px;
     }
 }
