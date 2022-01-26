@@ -1,0 +1,238 @@
+@media(max-width: 424px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #shapeTopLeft {
+        visibility: hidden;
+    }
+
+    #h1Title {
+        width: 90%;
+    }
+
+    #descriptionAccueil {
+        width: 50%;
+    }
+
+    ul#right li a {
+        padding: 14px 14px;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 1000px;
+        border-radius: 25px 25px 25px 25px;
+        height: 360px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        visibility : hidden;
+        width:0;
+    }
+
+    #divProjects {
+        transform: scale(0.8);
+        height: 290px;
+    }
+
+    ul li#hideName a{
+        visibility: hidden;
+        display: none;
+    }
+
+    ul#right{
+        justify-content: center;
+        
+    }
+
+    #h1Title {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    #descriptionAccueil {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    #titleProject {
+        font-size: 24px;
+    }
+
+    #descriptionProjet{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 425px ) and (max-width: 767px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #shapeTopLeft {
+        visibility: hidden;
+    }
+
+    #h1Title {
+        width: 90%;
+    }
+
+    #descriptionAccueil {
+        width: 50%;
+    }
+
+    ul#right li a {
+        padding: 14px 14px;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 800px;
+        border-radius: 25px 25px 25px 25px;
+        height: 360px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        visibility : hidden;
+        width:0;
+    }
+
+    #divProjects {
+        transform: scale(0.8);
+        height: 290px;
+    }
+
+    ul li#hideName a{
+        visibility: hidden;
+        display: none;
+    }
+
+    ul#right{
+        justify-content: center;
+        
+    }
+
+    #h1Title {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #descriptionAccueil {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    #titleProject {
+        font-size: 28px;
+    }
+
+    #descriptionProjet{
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 768px ) and (max-width: 879px) {
+    #shapeTopLeft {
+        visibility: hidden;
+    }
+
+    #h1Title {
+        width: 90%;
+    }
+
+    #descriptionAccueil {
+        width: 50%;
+    }
+
+    ul#right li a {
+        padding: 14px 14px;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 800px;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        visibility : hidden;
+        width:0;
+    }
+
+    #divProjects {
+        transform: scale(0.8);
+        height: 440px;
+    }
+}
+
+@media(min-width: 880px ) and (max-width: 1040px) {
+    #shapeTopLeft {
+        visibility: hidden;
+    }
+
+    #h1Title {
+        width: 90%;
+    }
+
+    #descriptionAccueil {
+        width: 50%;
+    }
+
+    ul#right li a {
+        padding: 14px 14px;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 800px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        width:300px;
+    }
+
+    #divProjects {
+        transform: scale(0.8);
+        height: 460px;
+    }
+}
+
+@media (min-width: 1041px ) and (max-width: 1187px) {
+    #shapeTopLeft {
+        visibility: hidden;
+    }
+
+    #h1Title {
+        width: 90%;
+    }
+
+    #descriptionAccueil {
+        width: 50%;
+    }
+
+    ul#right li a {
+        padding: 14px 14px;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 400px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        width:400px;
+    }
+}
+
+@media (min-width: 1187px ) and (max-width: 1370px) { 
+    #shapeTopLeft {
+        width: 600px;
+        height: 50%;
+    }
+
+    #allContainProject, #allContainProjectReverse {
+        width: 400px;
+    }
+
+    #imgProject, #imgProjectReverse {
+        width:400px;
+    }
+ }

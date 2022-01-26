@@ -74,7 +74,7 @@
 #divProjects {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 55px;
 }
 
 #allContainProject,
@@ -157,7 +157,6 @@
 #btnCv2 {
   background: #fdc435;
   border-radius: 8px;
-  margin-right: 12px;
   margin-top: 8%;
   font-family: Roboto;
   font-size: 18px;
@@ -176,7 +175,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 10%;
+  padding-top: 115px;
   padding-bottom: 15%;
 }
 

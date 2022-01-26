@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/contacts.css";
+import "../styles/mediaContacts.css";
 
 let Contacts = () => {
   let github = require("../images/github.png");

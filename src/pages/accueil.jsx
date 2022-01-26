@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/accueil.css";
+import "../styles/mediaAccueil.css"
 
 const Accueil = () => {
   let form = require("../images/form.png");
@@ -51,7 +52,7 @@ const Accueil = () => {
         </div>
       </section>
       <section id="goToProjets">
-        <div>
+        <div id="divProjectTitle">
           <h1 id="projectsTitle">Projets</h1>
         </div>
         <div id="divProjects">
