@@ -37,8 +37,8 @@
     }
 
     ul li#hideName a{
-        visibility: hidden;
-        display: none;
+        /* visibility: hidden;
+        display: none; */
     }
 
     ul#right{
@@ -104,8 +104,8 @@
     }
 
     ul li#hideName a{
-        visibility: hidden;
-        display: none;
+        /* visibility: hidden;
+        display: none; */
     }
 
     ul#right{

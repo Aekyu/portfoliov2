@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 
 const Navbar = () => {
+  let logo = require("../images/logo.png");
   return (
     <>
       <div id="navbar">
         <ul id="left">
           <li id="hideName">
-            <Link to={"/"}>Baptiste Couloumies</Link>
+            <Link to={"/"}> <img id="logo" src={logo} alt="" /></Link>
           </li>
         </ul>
         <ul id="right">
