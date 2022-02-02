@@ -10,3 +10,9 @@ body {
     margin-right: 120px;
     background: #F9FAFF;
 }
+
+#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

@@ -9,14 +9,12 @@ import Contacts from './pages/contacts.jsx'
 function App() {
   return <>
         <BrowserRouter>
-        <div>
           <Navbar/>
           <Routes>
             <Route exact path="/" element={<Accueil />} />
             <Route exact path="/about" element={<About/>} />
             <Route exact path="/contacts" element={<Contacts/>} />
           </Routes>
-        </div>
       </BrowserRouter>
   </>;
 }
