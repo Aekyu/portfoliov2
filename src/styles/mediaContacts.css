@@ -1,9 +1,9 @@
 @media only screen and (max-width: 510px) {
-    
-    #pdp{
+
+    #pdp {
         display: none;
     }
-    
+
     #center {
         display: flex;
         justify-content: center;
@@ -57,8 +57,8 @@
 }
 
 @media only screen and (max-width: 670px) {
-    
-    #pdp{
+
+    #pdp {
         display: none;
     }
 
@@ -115,11 +115,13 @@
     }
 }
 
-@media only screen and (max-width: 1199px) {
-    
-    #pdp{
+@media only screen and (max-width: 1306px) {
+
+    #pdp {
         display: none;
     }
+
+    
 
 
     #contactsTitle {
@@ -164,7 +166,11 @@
 
 }
 
-@media only screen and (min-width:1199px) {
+@media only screen and (min-width:1306px) {
+    #aboutDescription {
+        width: 50%;
+
+    }
 
     #iconsContacts {
         position: absolute;
