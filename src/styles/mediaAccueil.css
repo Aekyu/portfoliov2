@@ -222,7 +222,7 @@
     }
 }
 
-@media (min-width: 1187px ) and (max-width: 1370px) { 
+@media (min-width: 1187px ){ 
     #shapeTopLeft {
         width: 600px;
         height: 50%;
