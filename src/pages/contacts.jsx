@@ -148,7 +148,7 @@ let Contacts = () => {
         </section>
         <section>
           <div id="iconsContacts">
-            <a href="https://github.com/Aekyu" target="_blank">
+            <a href="https://github.com/BaptisteClms" target="_blank">
               <img id="iconsGit" src={github} alt="githubLink" />
             </a>
             <a href="https://www.linkedin.com/in/baptisteclms/" target="_blank">
