@@ -1,4 +1,4 @@
-@media (max-width: 510px) {
+@media only screen and (max-width: 510px) {
     
     #pdp{
         display: none;
@@ -64,7 +64,7 @@
     }
 }
 
-@media(min-width: 510px) and (max-width: 670px) {
+@media only screen and (max-width: 670px) {
     
     #pdp{
         display: none;
@@ -130,7 +130,7 @@
     }
 }
 
-@media(min-width: 670px) and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
     
     #pdp{
         display: none;
@@ -184,7 +184,7 @@
 
 }
 
-@media(min-width:1199px) {
+@media only screen and (min-width:1199px) {
 
     #iconsContacts {
         position: absolute;
