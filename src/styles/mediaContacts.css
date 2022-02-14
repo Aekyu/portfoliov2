@@ -42,17 +42,9 @@
 
     }
 
-    #aboutDescription {
-        width: 70%;
-    }
-
     #form {
         transform: scale(80%);
         width: 100%;
-    }
-
-    #aboutDescription {
-        width: 70%;
     }
 
     #aboutTitle {
@@ -109,17 +101,10 @@
     }
 
 
-    #aboutDescription {
-        width: 70%;
-    }
-
     #form {
         width: 100%;
     }
 
-    #aboutDescription {
-        width: 70%;
-    }
 
     #aboutTitle {
         font-size: 34px;
@@ -171,11 +156,6 @@
         align-items: center;
         bottom: 0;
         padding: 50px;
-    }
-
-
-    #aboutDescription {
-        width: 70%;
     }
 
     #form2 {
