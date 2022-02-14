@@ -21,7 +21,7 @@
     }
 
     #allContainProject, #allContainProjectReverse {
-        width: 1000px;
+        min-width: 400px !important;
         border-radius: 25px 25px 25px 25px;
         height: 360px;
     }
@@ -32,7 +32,7 @@
     }
 
     #divProjects {
-        transform: scale(0.8);
+        /* transform: scale(0.8); */
         height: 290px;
     }
 
@@ -94,8 +94,8 @@
     }
 
     #divProjects {
-        transform: scale(0.8);
-        height: 290px;
+        /* transform: scale(0.8); */
+        height: 280px ;
     }
 
     ul#right{
@@ -140,18 +140,18 @@
     }
 
     #allContainProject, #allContainProjectReverse {
-        width: 800px;
+        width: 680px ;
         border-radius: 25px 25px 25px 25px;
     }
 
     #imgProject, #imgProjectReverse {
-        visibility : hidden;
+        display: none;
         width:0;
     }
 
     #divProjects {
-        transform: scale(0.8);
-        height: 440px;
+        /* transform: scale(0.8); */
+        height: 340px;
     }
 }
 
@@ -172,18 +172,14 @@
         padding: 14px 14px;
     }
 
-    #allContainProject, #allContainProjectReverse {
-        width: 800px;
-    }
-
-    #imgProject, #imgProjectReverse {
-        width:300px;
-    }
-
-    #divProjects {
-        transform: scale(0.8);
+    /* #divProjects {
         height: 460px;
+    } */
+
+    #allContainProject, #allContainProjectReverse {
+        width: 380px;
     }
+
 }
 
 @media only screen and (max-width: 1187px) {

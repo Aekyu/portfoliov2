@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "../styles/accueil.css";
-import "../styles/mediaAccueil.css"
+// import "../styles/mediaAccueil.css"
 
 const Accueil = () => {
   let form = require("../images/form.png");

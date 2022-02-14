@@ -77,14 +77,6 @@
   margin-top: 55px;
 }
 
-#allContainProject,
-#allContainProjectReverse,
-#imgProject,
-#imgProjectReverse {
-  width: 496px;
-  height: 524px;
-}
-
 #allContainProject {
   border-radius: 25px 0 0 25px;
   display: flex;
@@ -162,7 +154,7 @@
   font-size: 18px;
   width: 220px;
   height: 45px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 #hrefBtnCv {
@@ -171,7 +163,7 @@
 
 }
 
-#icons {
+#icons, #iconsAbout {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,14 +175,271 @@
   width: 59px;
   cursor: pointer;
 }
+
 #iconsLinkedIn {
   width: 47px;
   padding-left: 32px;
   cursor: pointer;
 }
+
 #iconsMail {
   width: 50px;
   padding-left: 32px;
   cursor: pointer;
 }
 
+@media only screen and (max-width: 420px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #shapeTopLeft {
+    display: none;
+  }
+
+  #h1Title h1{
+    min-width: 260px;
+  }
+
+  #descriptionAccueil {
+    min-width:200px;
+  }
+
+  ul#right li a {
+    padding: 14px 14px;
+  }
+
+  #h1Title {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  #descriptionAccueil {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  #titleProject {
+    font-size: 24px;
+  }
+
+  #descriptionProjet {
+    font-size: 14px;
+  }
+
+  #allContainProject, #allContainProjectReverse {
+    min-width: 200px;
+    border-radius: 25px 25px 25px 25px;
+    height: 360px;
+  }
+
+  #imgProject, #imgProjectReverse {
+    visibility: hidden;
+    width: 0;
+  }
+
+  #divProjects {
+    /* transform: scale(0.8); */
+    height: 350px;
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  body {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #shapeTopLeft {
+    display: none;
+  }
+
+  #h1Title h1 {
+    min-width: 260px;
+    position: relative;
+    z-index: 2;
+  }
+
+  #descriptionAccueil {
+    width: 50%;
+  }
+
+  ul#right li a {
+    padding: 14px 14px;
+  }
+
+  #h1Title {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  #descriptionAccueil {
+    font-size: 14px;
+    width: 60%;
+  }
+
+  #titleProject {
+    font-size: 24px;
+  }
+
+  #descriptionProjet {
+    font-size: 14px;
+  }
+
+  #allContainProject, #allContainProjectReverse {
+    min-width: 200px;
+    border-radius: 25px 25px 25px 25px !important;
+    height: 360px;
+  }
+
+  #imgProject, #imgProjectReverse {
+    display:none;
+    width: 0;
+  }
+
+  #divProjects {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+
+  #shapeTopLeft {
+    width: 400px;
+    height: 400px;
+    max-width:500px
+  }
+
+  #h1Title h1 {
+    max-width: 400px;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+  }
+
+  #descriptionAccueil {
+    max-width: 340px;
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  ul#right li a {
+    padding: 14px 14px;
+  }
+
+  #h1Title {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  #descriptionAccueil {
+    width: 60%;
+  }
+
+  #titleProject {
+    font-size: 24px;
+  }
+
+  #descriptionProjet {
+    font-size: 14px;
+  }
+
+  #allContainProject{
+    max-width: 400px;
+    border-radius: 25px 0px 0px 25px;
+  }
+
+  #allContainProjectReverse{
+    
+    max-width: 400px;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  #imgProject, #imgProjectReverse {
+    visibility:visible;
+    min-width: 340px;
+    height: 350px;
+  }
+
+  #divProjects {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+
+  #shapeTopLeft {
+    width: 800px !important;
+    height: 600px;
+    max-width:500px
+  }
+
+  #h1Title h1 {
+    max-width: 400px;
+    font-size: 30px;
+    position: relative;
+    z-index: 2;
+  }
+
+  #descriptionAccueil {
+    max-width: 340px;
+    font-size: 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  ul#right li a {
+    padding: 14px 14px;
+  }
+
+  #h1Title {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  #descriptionAccueil {
+    width: 60%;
+  }
+
+  #titleProject {
+    font-size: 24px;
+  }
+
+  #descriptionProjet {
+    font-size: 14px;
+  }
+
+  #allContainProject{
+    max-width: 500px;
+    border-radius: 25px 0px 0px 25px;
+  }
+
+  #allContainProjectReverse{
+    
+    max-width: 500px;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+  #imgProject, #imgProjectReverse {
+    visibility:visible;
+    min-width: 340px;
+    height: 350px;
+  }
+
+  #divProjects {
+    height: 350px;
+  }
+}
