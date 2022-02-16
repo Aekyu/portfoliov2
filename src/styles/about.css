@@ -23,11 +23,10 @@
 }
 
 #iconsAbout {
-  left: 40%;
-  right: 40%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0;
-  padding-bottom: 4%;
+  bottom: -10vh;
+  padding-bottom: 0;
 }

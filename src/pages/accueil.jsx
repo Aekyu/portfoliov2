@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 // import { Link } from "react-router-dom";
 import "../styles/accueil.css";
 // import "../styles/mediaAccueil.css"
@@ -10,6 +10,13 @@ const Accueil = () => {
   let github = require("../images/github.png");
   let linkedIn = require("../images/linkedin.png");
   let mail = require("../images/mail.png");
+
+  const projectDiv = useRef();
+
+  function scrollToProject() {
+    projectDiv.current.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <>
       <section>
@@ -27,10 +34,10 @@ const Accueil = () => {
             compétences dans ce domaine.
           </p>
           <div>
-            <a href="#goToProjets">
-              <button id="btn1Accueil">Projets</button>
+            <a>
+              <button onClick={scrollToProject} id="btn1Accueil">Projets</button>
             </a>
-            <a href="https://www.linkedin.com/in/baptiste-couloumies-42736b1ab/">
+            <a href="https://www.linkedin.com/in/baptiste-couloumies-42736b1ab/" target="_blank">
               <button id="btn2Accueil">LinkedIn</button>
             </a>
           </div>
@@ -53,7 +60,7 @@ const Accueil = () => {
       </section>
       <section id="goToProjets">
         <div id="divProjectTitle">
-          <h1 id="projectsTitle">Projets</h1>
+          <h1 ref={projectDiv} id="projectsTitle">Projets</h1>
         </div>
         <div id="divProjects">
           <div id="allContainProject">

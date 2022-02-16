@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 #fullDescription {
   padding-top: 3%;
 }
@@ -67,7 +71,8 @@
   font-size: 48px;
   line-height: 72px;
   text-align: center;
-  padding-top: 8%;
+  padding-top: 75px;
+  padding-bottom: 35px;
   color: #25282b;
 }
 
@@ -137,7 +142,7 @@
   font-size: 48px;
   line-height: 72px;
   text-align: center;
-  padding-top: 14%;
+  padding-top: 100px;
   color: #25282b;
 }
 
@@ -149,7 +154,7 @@
 #btnCv2 {
   background: #fdc435;
   border-radius: 8px;
-  margin-top: 8%;
+  margin-top: 75px;
   font-family: Roboto;
   font-size: 18px;
   width: 220px;
@@ -167,8 +172,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
-  padding-bottom: 15%;
+  padding-top: 95px;
+  padding-bottom: 80px;
 }
 
 #iconsGit {
@@ -188,6 +193,8 @@
   cursor: pointer;
 }
 
+
+
 @media only screen and (max-width: 420px) {
   body {
     margin-left: 20px;
@@ -204,10 +211,6 @@
 
   #descriptionAccueil {
     min-width:200px;
-  }
-
-  ul#right li a {
-    padding: 14px 14px;
   }
 
   #h1Title {
@@ -266,10 +269,6 @@
     width: 50%;
   }
 
-  ul#right li a {
-    padding: 14px 14px;
-  }
-
   #h1Title {
     font-size: 28px;
     width: 100%;
@@ -314,7 +313,6 @@
   #shapeTopLeft {
     width: 400px;
     height: 400px;
-    max-width:500px
   }
 
   #h1Title h1 {
@@ -331,9 +329,6 @@
     z-index: 2;
   }
 
-  ul#right li a {
-    padding: 14px 14px;
-  }
 
   #h1Title {
     font-size: 28px;
@@ -382,9 +377,8 @@
 
 
   #shapeTopLeft {
-    width: 800px !important;
-    height: 600px;
-    max-width:500px
+    width: 600px !important;
+    height: 550px;
   }
 
   #h1Title h1 {
@@ -399,10 +393,6 @@
     font-size: 20px;
     position: relative;
     z-index: 2;
-  }
-
-  ul#right li a {
-    padding: 14px 14px;
   }
 
   #h1Title {

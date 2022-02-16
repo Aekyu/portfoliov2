@@ -18,11 +18,16 @@ li {
   z-index: 9999;
 }
 
+ul#right li a {
+  padding: 14px;
+  padding-left: 6px;
+}
+
 li a {
   display: block;
   color: #25282b;
   text-align: center;
-  padding: 14px 45px;
+  padding: 6px 0px;
   padding-left: 0;
   text-decoration: none;
   padding-bottom: 0;
