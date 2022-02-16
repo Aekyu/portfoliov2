@@ -205,12 +205,12 @@ html {
     display: none;
   }
 
-  #h1Title h1{
+  #h1Title h1 {
     min-width: 260px;
   }
 
   #descriptionAccueil {
-    min-width:200px;
+    min-width: 200px;
   }
 
   #h1Title {
@@ -294,7 +294,7 @@ html {
   }
 
   #imgProject, #imgProjectReverse {
-    display:none;
+    display: none;
     width: 0;
   }
 
@@ -347,19 +347,19 @@ html {
     font-size: 14px;
   }
 
-  #allContainProject{
+  #allContainProject {
     max-width: 400px;
     border-radius: 25px 0px 0px 25px;
   }
 
-  #allContainProjectReverse{
-    
+  #allContainProjectReverse {
+
     max-width: 400px;
     border-radius: 0px 25px 25px 0px;
   }
 
   #imgProject, #imgProjectReverse {
-    visibility:visible;
+    visibility: visible;
     min-width: 340px;
     height: 350px;
   }
@@ -412,19 +412,19 @@ html {
     font-size: 14px;
   }
 
-  #allContainProject{
+  #allContainProject {
     max-width: 500px;
     border-radius: 25px 0px 0px 25px;
   }
 
-  #allContainProjectReverse{
-    
+  #allContainProjectReverse {
+
     max-width: 500px;
     border-radius: 0px 25px 25px 0px;
   }
 
   #imgProject, #imgProjectReverse {
-    visibility:visible;
+    visibility: visible;
     min-width: 340px;
     height: 350px;
   }
