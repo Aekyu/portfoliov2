@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
-// import { Link } from "react-router-dom";
 import "../styles/accueil.css";
-// import "../styles/mediaAccueil.css"
+import CV from "../images/CV-2022.pdf"
 
 const Accueil = () => {
   let form = require("../images/form.png");
@@ -30,7 +29,7 @@ const Accueil = () => {
           <p id="descriptionAccueil">
             Activement à la recherche d’un stage à partir de mi-avril en
             developpement web. Je m'intéresse à tout ce qui est lié à la
-            programmation et aux jeux vidéo, j'ai décidé développer mes
+            programmation et aux jeux vidéo, j'ai décidé de développer mes
             compétences dans ce domaine.
           </p>
           <div>
@@ -52,7 +51,7 @@ const Accueil = () => {
         </div>
         <div id="btnCv1">
           <button id="btnCv2">
-            <a id="hrefBtnCv" href="./CV.pdf" download>
+            <a id="hrefBtnCv" href={CV} download>
               Télécharger mon CV
             </a>
           </button>
