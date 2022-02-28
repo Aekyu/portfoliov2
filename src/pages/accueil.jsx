@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "../styles/accueil.css";
-import CV from "../images/CV-2022.pdf"
+import CV from "../images/CV.pdf"
 
 const Accueil = () => {
   let form = require("../images/form.png");
