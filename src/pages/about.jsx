@@ -17,7 +17,7 @@ let About = () => {
             <p id="aboutDescription">
               Actuellement étudiant chez forEach Academy depuis quelques mois,
               j'apprends principalement les langages comme HTML, CSS, BootStrap,
-              JavaScript, React et PHP afin d'acquérir des compétences pour, à
+              JavaScript, React, Java et PHP afin d'acquérir des compétences pour, à
               l'avenir devenir Développeur Full Stack.
             </p>
           </div>

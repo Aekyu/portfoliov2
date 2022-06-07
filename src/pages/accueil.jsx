@@ -27,9 +27,9 @@ const Accueil = () => {
             <h1>Bonjour, je m'appelle Baptiste Couloumies</h1>
           </div>
           <p id="descriptionAccueil">
-            Activement à la recherche d’un stage à partir de mi-avril en
-            developpement web. Je m'intéresse à tout ce qui est lié à la
-            programmation et aux jeux vidéo, j'ai décidé de développer mes
+            Activement à la recherche d’une entreprise pour un contrat d'alternance en développement web afin d'avoir un aperçu de ce qu'il se passe 
+            dans le cadre professionnel et par la même occasion, avoir la chance de poursuivre mes études et de valider mon diplôme. 
+            Je m'intéresse à tout ce qui est lié à la programmation et aux jeux vidéo, j'ai décidé de développer mes
             compétences dans ce domaine.
           </p>
           <div>
